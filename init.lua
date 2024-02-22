@@ -27,6 +27,13 @@ return {
   },
 
   lsp = {
+    config = {
+      clangd = {
+        capabilities = {
+          offsetEncoding = "utf-8",
+        }
+      },
+    },
     -- customize lsp formatting options
     formatting = {
       -- control auto formatting on save
@@ -79,6 +86,16 @@ return {
     --   },
     --   pattern = {
     --     ["~/%.config/foo/.*"] = "fooscript",
+    --   },
+    -- }
+    -- local cmp_nvim_lsp = require "cmp_nvim_lsp"
+    --
+    -- require("lspconfig").clangd.setup {
+    --   on_attach = on_attach,
+    --   capabilities = cmp_nvim_lsp.default_capabilities(),
+    --   cmd = {
+    --     "clangd",
+    --     "--offset-encoding=utf-16",
     --   },
     -- }
   end,
