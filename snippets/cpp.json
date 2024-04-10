@@ -1,0 +1,11 @@
+{
+  "veccin": {
+    "prefix": ["veccin"],
+    "body": ["vector<int> A(N);", "for(auto& a: A) {", "\tcin >> a;", "}"],
+    "description": "veccin"
+  },
+  "ll": {
+    "prefix": ["ll"],
+    "body": ["using ll = long long;"]
+  }
+}

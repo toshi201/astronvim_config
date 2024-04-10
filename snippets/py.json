@@ -1,0 +1,7 @@
+{
+  "setup": {
+    "prefix": ["veccin"],
+    "body": ["A = [int(i) for i in input().split()]"],
+    "description": "veccin"
+  }
+}
