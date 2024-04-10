@@ -30,7 +30,7 @@ return {
         relativenumber = false, -- sets vim.opt.relativenumber
         number = true, -- sets vim.opt.number
         spell = false, -- sets vim.opt.spell
-        signcolumn = "auto", -- sets vim.opt.signcolumn to auto
+        signcolumn = "yes", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
         whichwrap = "b,s,h,l,<,>,[,]",
       },
@@ -71,6 +71,13 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+      },
+      i = {
+        -- emacs like key mapping
+        ["<C-f>"] = { "<Right>" },
+        ["<C-b>"] = { "<Left>" },
+        ["<C-a>"] = { "<Home>" },
+        ["<C-e>"] = { "<End>" },
       },
       t = {
         -- setting a mapping to false will disable it
