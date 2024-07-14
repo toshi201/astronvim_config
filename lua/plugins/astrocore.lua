@@ -71,6 +71,10 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+
+        -- x and dd doesn't yank
+        ["x"] = { '"_x' },
+        ["dd"] = { '"_dd' },
       },
       i = {
         -- emacs like key mapping
