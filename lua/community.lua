@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.haskell" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
