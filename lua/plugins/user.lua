@@ -14,18 +14,6 @@ return {
     event = "BufRead",
     config = function() require("lsp_signature").setup() end,
   },
-
-  {
-    "RRethy/nvim-treesitter-endwise",
-    config = function()
-      require("nvim-treesitter.configs").setup {
-        endwise = {
-          enable = true,
-        },
-      }
-    end,
-  },
-
   -- == Examples of Overriding Plugins ==
 
   -- customize alpha options
